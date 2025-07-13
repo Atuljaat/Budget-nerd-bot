@@ -1,0 +1,11 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.0"
+  }
+}
