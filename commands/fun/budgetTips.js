@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 const budgetTips = require('../../data/budgetTips.js');
 
 function getRandomTip() {
-    const randomIndex = Math.floor(Math.random() * dailytips.length);
+    const randomIndex = Math.floor(Math.random() * budgetTips.length);
     return budgetTips[randomIndex].tip;
 }
 
