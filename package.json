@@ -2,7 +2,7 @@
   "type": "commonjs",
   "scripts": {
     "deploy": "node deploy.js",
-    "start": "node index.js"
+    "start": "node deploy.js && node index.js "
   },
   "dependencies": {
     "chart.js": "^4.5.0",

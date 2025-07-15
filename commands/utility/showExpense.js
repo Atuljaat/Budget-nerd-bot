@@ -42,7 +42,7 @@ async function generateChart(expenses) {
     // console.log('Labels:', labels);
     // console.log('Data:', data);
     const chartConfig = {
-        type: 'line',
+        type: 'bar',
         data: {
         labels: labels,
         datasets: [{
